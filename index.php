@@ -30,12 +30,13 @@ include('inc/header4.php');
 </head>
 <body>
   <?php include('top_menus.php'); ?>	
+  <br><br><br>
   <div class="container-fluid" id="main">
     <div class="row row-offcanvas row-offcanvas-left">
       <?php include('left_menus.php'); ?>
-	  <div class="col-md-9 col-lg-10 main"> 
+	  <div class="mx-auto col-10 col-md-8 col-lg-6"> 
 		<div class="row mb-3">		 
-			<div style="padding-top:30px" class="panel-body" >
+			<div style="padding-top:30px" class="mx-auto col-10 col-md-8 col-lg-6"> 
 				<?php if ($loginMessage != '') { ?>
 					<div id="login-alert" class="alert alert-danger col-sm-12"><?php echo $loginMessage; ?></div>                            
 				<?php } ?>
